@@ -173,3 +173,8 @@ Some icons used in this project:
 ### License
 
 Released under the [MIT License](https://github.com/megafetis/vue3-treeselect/blob/master/LICENSE).
+
+
+NODE 16
+Fixes for search / list management from
+dusal:vue-treeselect:master
