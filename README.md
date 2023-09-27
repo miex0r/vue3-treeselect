@@ -178,3 +178,8 @@ Released under the [MIT License](https://github.com/megafetis/vue3-treeselect/bl
 NODE 16
 Fixes for search / list management from
 dusal:vue-treeselect:master
+... after build find and replace all
+...
+var h = this.$createElement;
+,"$createElement"
+this.$createElement;
