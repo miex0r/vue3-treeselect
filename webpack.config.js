@@ -9,6 +9,7 @@ const { VueLoaderPlugin } = require('vue-loader');
 const { DefinePlugin } = require('webpack');
 const tsNameof = require("ts-nameof");
 
+// todo: get this to build without the script loader eval crap... more like the vue3-treeselect.common.js that worked sort of..
 
 module.exports = (env = {}) => ([
 {
@@ -139,7 +140,7 @@ module.exports = (env = {}) => ([
     new VueLoaderPlugin(),
     new DefinePlugin({
       __VUE_OPTIONS_API__:false,
-      __VUE_PROD_DEVTOOLS__:true
+      __VUE_PROD_DEVTOOLS__:false
     })
   ],
 
