@@ -7592,7 +7592,7 @@ var instanceId = 0;
       }
       this.buildForestState();
       if (nextState) {
-        this.expandParentNodes();
+        // this.expandParentNodes()
         this.$emit('select', node.raw, this.getInstanceId());
       } else {
         this.$emit('deselect', node.raw, this.getInstanceId());

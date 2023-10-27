@@ -176,10 +176,14 @@ Released under the [MIT License](https://github.com/megafetis/vue3-treeselect/bl
 
 
 NODE 16
-Fixes for search / list management from
-dusal:vue-treeselect:master
-... after build find and replace all
-...
+Fixes for search / list management from dusal:vue-treeselect:master
+also fixed the issue where if you click a check it opens all the options..
+
+To build: 
+$ npm run build
+
+After build find and replace all in the dist folder
+
 var h = this.$createElement;
 ,"$createElement"
 this.$createElement;
