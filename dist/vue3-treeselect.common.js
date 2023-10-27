@@ -6732,7 +6732,7 @@ var instanceId = 0;
       this.hasBranchNodes = this.forest.normalizedOptions.some(function (rootNode) {
         return rootNode.isBranch;
       });
-      this.expandParentNodes();
+      // this.expandParentNodes()
     },
     getInstanceId: function getInstanceId() {
       return this.instanceId == null ? this.id : this.instanceId;

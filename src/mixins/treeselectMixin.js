@@ -978,7 +978,7 @@ export default {
       }
 
       this.hasBranchNodes = this.forest.normalizedOptions.some(rootNode => rootNode.isBranch)
-      this.expandParentNodes()
+      // this.expandParentNodes()
     },
 
     getInstanceId() {
